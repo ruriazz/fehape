@@ -1,0 +1,4 @@
+*.lock
+.vscode
+/src/vendor/
+/public/assets/core/
