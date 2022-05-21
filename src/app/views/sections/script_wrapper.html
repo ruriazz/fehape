@@ -1,0 +1,3 @@
+{% for item in context.js %}
+<script src="{{item.src}}" type="{{item.type}}"></script>
+{% endfor %}
