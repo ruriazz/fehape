@@ -1,4 +1,10 @@
-*.lock
-.vscode
 /src/vendor/
-/public/assets/core/
+/src/*.lock
+
+/src/.cache/*
+!/src/.cache/.gitkeep
+
+/src/static/css/*
+/src/static/js/*
+!/src/static/css/.gitkeep
+!/src/static/js/.gitkeep
